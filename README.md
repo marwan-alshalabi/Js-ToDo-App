@@ -1,1 +1,4 @@
-# Js-ToDo-App
+# Js ToDo App
+
+### Project Screenshot
+![](screenshot.png)
