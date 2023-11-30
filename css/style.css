@@ -4,3 +4,11 @@ body{
     color: white ;
     font-family: 'Jost', sans-serif;
 }
+
+.completed {
+    text-decoration: line-through;
+}
+
+.deleted{
+    display: none;  
+}

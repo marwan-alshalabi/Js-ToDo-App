@@ -41,8 +41,17 @@ function addTodo(e){
 }
 
 
-function todoToggle(){
+function todoToggle(e){
+    	const item = e.target
 
+        if (item.classList[1] == 'fa-check'){
+            const todo_Li = item.parentElement.parentElement.parentElement
+            todo_Li.childNodes[0].classList.toggle('completed')
+        }    
+
+        else if (item.classList[1] == 'fa-trash-can') {
+            item.parentElement.parentElement.parentElement.classList.add('deleted')
+        }
 }
 
 
